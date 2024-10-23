@@ -1,0 +1,32 @@
+.bill{
+    background-color: #999;
+    width: 300px;
+    height: inherit;
+    margin-top: 200px;
+    margin-left: 600px;
+    border-radius: 10px;
+}
+.bill h1{
+    text-align: center;
+}
+.bill p{
+    text-align: center;
+    font-size: 30px;
+}
+#list{
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+#payment:hover{
+        background-color:#25a244 ;
+        
+}
+#payment{
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-radius: 30px;
+    size: 100px;
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}

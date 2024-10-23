@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment Options</title>
+    <style>
+        /* Add some basic styles for the button */
+        .payment-button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <button class="payment-button" id="paymentButton">Pay with Google Pay or Paytm</button>
+
+    <script>
+        document.getElementById("paymentButton").addEventListener("click", function () {
+            // Check if Google Pay is available (this is just a basic example)
+            if (window.PaymentRequest) {
+                // Redirect to the Google Pay website
+                window.location.href = "https://pay.google.com/";
+            } else {
+                // Redirect to the Paytm website
+                window.location.href = "https://paytm.com/";
+            }
+        });
+    </script>
+</body>
+</html>

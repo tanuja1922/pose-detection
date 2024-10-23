@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="women.css">
+    <script src="womenJavascript.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <nav>
+          <a href="hairHtml.html">eSalon</a>
+          <a href="hairHtml.html">Home</a>
+          <div class="dropdown">
+            <button class="dropbtn">
+              Styles
+              
+            </button>
+  
+            <div class="dropdown-content">
+              <a class="women" href="women.html">Women</a>
+              <a href="menHtml.html">Men</a>
+            </div>
+          </div>
+          <a class="contact" href="contactHtml.html">Contact</a>
+          <a href="appointment.html">Appointment</a>
+        </nav>
+      </div>
+   
+      
+
+      <div class="container1">
+        <h1>Find Your Perfect HairStyle</h1>
+        <p>Complete the following questionnaire to receive a FREE hair consultation, and upload your photo to try on the recommended hairstyles based on your personal preferences! For an accurate consultation, it is essential that you select your correct face shape and answer all questions correctly.</p>
+      </div>
+      <div class="container2">
+       
+        <h2> 1. Please select your face shape:</h2>
+        <img id="faceshape" src="faceshapewomen.png" width="600px"><br><br>
+       
+
+        <select id="faceShapeSelect" name="faceShape">
+          <option value="">Select a face shape</option>
+          <option class="option" value="oval">Oval</option>
+          <option class="option" value="round">Round</option>
+          <option class="option" value="rectangle">Rectangle</option>
+          <option class="option" value="square">Square</option>
+          <option class="option" value="heart">Heart</option>
+        </select>
+        <h2> 2. Please select your hair length:</h2>
+        <img id="hairlength" src="hairlengthwomen.png" width="600px"><br><br>
+
+        <select id="hairLengthSelect" name="hairLength">
+          <option value="">Select a hair length</option>
+          <option class="option" value="short">Short</option>
+          <option class="option" value="medium">Medium</option>
+          <option class="option" value="long">Long</option>
+        </select>
+        <h2>3. Please select your Hair Texture:</h2>
+        <img id="hairlength" src="hairTexture.png" width="600px"><br><br>
+        <select id="hairTextureSelect" name="hairTexture">
+          <option value="">Select a hair texture</option>
+          <option class="option" value="straight">Straight</option>
+          <option class="option" value="wavy">Wavy</option>
+          <option class="option" value="curly">Curly</option>
+        </select>
+        <br />
+        <br />
+
+        <br />
+        <input
+          type="submit"
+          class="submitMen"
+          value="Submit"
+          onclick="displayHairstyle()"
+        />
+        <br />
+        <br />
+        <!-- Display the selected hairstyle image -->
+        <h2>Recommended Hairstyles :</h2>
+        <div id="hairstyleImage">
+          <!-- Hairstyle images will be displayed here -->
+        </div>
+
+      </div>
+
+<!----------------------------------->
+<!-- <div class="footer-container1">
+  <footer class="footer">
+    <div class="footer-logo">
+      <p class="">eSalaon</p>
+    </div>
+
+    <!---------------------------------->
+
+    <!-- <div class="footer-links">
+      <p class="links">Links</p>
+      <ul class="no-bullets">
+        <li><a href="hairHtml.html">home</a></li>
+        <li><a href="women.html">styles - women</a></li>
+        <li><a href="menHtml.html">styles - men</a></li>
+        <li><a href="contactHtml.html">contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-note-div">
+      <p class="footer-note">Make it a good hair day!</p>
+    </div>
+  </footer>
+</div> --> 
+    
+</body>
+</html>

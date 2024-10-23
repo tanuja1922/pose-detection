@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #ffffff;
+  font-family: "Nunito", sans-serif;
+}
+.container1{
+  width: 700px;
+  position: absolute;
+  top: 200px;
+  left: 250px;
+  border: inset;
+  border-color: gray;
+}
+
+.container1 h1{
+  font-family:"sans-serif";
+  font-weight: bold;
+  font-size: 40px;
+  padding-left: 10px;
+}
+
+.container1 p{
+  font-family:"sans-serif";
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.men-1-container {
+  max-width: 800px;
+  margin: 0 auto; 
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 400px;
+  left: 250px;
+
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.length {
+  width: 62%;
+}
+.texture {
+  width: 60%;
+}
+
+img.complexion,
+img.length,
+img.texture {
+  max-width: 100%;
+  height: auto;
+  /* display: block; */
+  margin-top: 10px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input.submitMen {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+input.submitMen:hover {
+  background-color: #03070b;
+  transform: scale(1.08);
+}
+
+#hairstyleImage {
+  margin-top: 20px;
+}
+
+#hairstyleImage img {
+  max-width: 100%;
+  height: auto;
+}
+.dropdown{
+  background-color: #04AA6D;
+}
+.men{
+  background-color: #04AA6D;
+}

@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #ffffff;
+  font-family: "Nunito", sans-serif;
+}
+  /* .navbar{
+    background-color: #bb5454;
+    overflow: hidden;
+  } */
+  .dropbtn{
+    background-color: #04AA6D;
+  }
+  .women{
+    background-color: #04AA6D;
+  }
+  .container1{
+    width: 700px;
+    position: absolute;
+    top: 200px;
+    left: 250px;
+    border: inset;
+    border-color: gray;
+  }
+  /* .footer-container1{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+  } */
+  
+  
+  .container1 h1{
+    font-family:"sans-serif";
+    font-weight: bold;
+    font-size: 40px;
+    padding-left: 10px;
+  }
+  
+  .container1 p{
+    font-family:"sans-serif";
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  .container2{
+    width: 700px;
+    position: absolute;
+    top: 400px;
+    left: 250px;
+    /* border: inset;
+    border-color: gray; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .container2 h2{
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
+  }
+  #Male{
+    padding-left: 30px; 
+  }
+  label{
+    font-size: 20px;
+  }
+  input[name="gender"] {
+    margin-right: 50px;
+   
+}
+
+    input[name="bb"]{
+        border: 0px;
+        width: 10%;
+        height: 1.8em;
+        
+    }
+  select {
+      cursor: pointer;
+      width: 300px;
+      height: 40px;
+      border-radius: 5px;
+      background-color: rgb(250, 250, 250);
+      box-shadow: 2px 4px 8px #c5c5c5;
+      margin-bottom: 10px;
+      margin-left: 5px;
+    }
+    input.submitMen {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.2s;
+      margin-left: 5px;
+    }
+    
+    input.submitMen:hover {
+      background-color: #03070b;
+      transform: scale(1.08);
+    }
+    
+    #hairstyleImage {
+      margin-top: 20px;
+    }
+    
+    #hairstyleImage img {
+      max-width: 100%;
+      height: auto;
+    }
+    .dropdown{
+      background-color: #04AA6D;
+    }
+  

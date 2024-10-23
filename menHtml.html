@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="global.css" />
+    <script src="menJavascript.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      rel="stylesheet"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="menCss.css" />
+
+    <title>eSalon - Contact</title>
+  </head>
+  <body>
+    <!-- ------------
+Face shape
+Hair length
+Hair texture 
+Types of cut
+Age
+Color------------- -->
+    <div class="navbar">
+      <nav>
+        <a href="hairHtml.html">eSalon</a>
+        <a  href="hairHtml.html">Home</a>
+        <div class="dropdown">
+          <button class="dropbtn">
+            Styles
+            <!--<i class="fa-solid fa-chevron-down"></i> <i class="fa-solid fa-chevron-up"></i>!-->
+          </button>
+
+          <div class="dropdown-content">
+            <a href="women.html">Women</a>
+            <a class="men" href="menHtml.html">Men</a>
+          </div>
+        </div>
+        <a href="contactHtml.html">Contact</a>
+        <a href="appointment.html">Appointment</a>
+      </nav>
+    </div>
+    <!---------------------------------->
+    <div class="container1">
+      <h1>Find Your Perfect HairStyle</h1>
+      <p>Complete the following questionnaire to receive a FREE hair consultation, and upload your photo to try on the recommended hairstyles based on your personal preferences! For an accurate consultation, it is essential that you select your correct face shape and answer all questions correctly.</p>
+    </div>
+
+    <div class="men-1-container">
+      <h2>1. Please select your Face Shape:</h2>
+      <img
+        class="complexion"
+        id="complexion"
+        src="Face-shapes-men.jpeg"
+        alt="Face shape image"
+        width="600px"
+      /><br />
+      <select id="faceShapeSelect" name="faceShape">
+        <option value="">Select a face shape</option>
+        <option class="option" value="oval">Oval</option>
+        <option class="option" value="round">Round</option>
+        <option class="option" value="diamond">Diamond</option>
+        <option class="option" value="square">Square</option>
+        <option class="option" value="heart">Heart</option>
+      </select>
+      <br />
+      <br />
+
+      <h2>2. Please select your Hair Length:</h2>
+      <img
+        class="length"
+        id="length"
+        src="hairLength.png"
+        alt="Hair length image"
+        width="600px"
+      /><br />
+      <br />
+
+      <select id="hairLengthSelect" name="hairLength">
+        <option value="">Select a hair length</option>
+        <option class="option" value="short">Short</option>
+        <option class="option" value="medium">Medium</option>
+        <option class="option" value="long">Long</option>
+      </select>
+      <br />
+      <br />
+
+      <h2>3. Please select your Hair Texture:</h2>
+      <img
+        class="texture"
+        id="texture"
+        src="hairTexture.png"
+        alt="Hair texture image"
+        width="600px"
+      />
+      <br />
+      <br />
+
+      <select id="hairTextureSelect" name="hairTexture">
+        <option value="">Select a hair texture</option>
+        <option class="option" value="straight">Straight</option>
+        <option class="option" value="wavy">Wavy</option>
+        <option class="option" value="curly">Curly</option>
+      </select>
+      <br />
+      <br />
+
+     
+      <br />
+      <input
+        type="submit"
+        class="submitMen"
+        value="Submit"
+        onclick="displayHairstyle()"
+      />
+      <br />
+      <br />
+      <!-- Display the selected hairstyle image -->
+      <h2>Recommended Hairstyles :</h2>
+      <div id="hairstyleImage">
+        <!-- Hairstyle images will be displayed here -->
+      </div>
+    </div>
+
+    <!-- <div class="footer-container">
+      <footer class="footer">
+        <div class="footer-logo">
+          <p class="">eSalaon</p>
+        </div> -->
+
+        <!---------------------------------->
+
+        <!-- <div class="footer-links">
+          <p class="links">Links</p>
+          <ul class="no-bullets">
+            <li><a href="hairHtml.html">home</a></li>
+            <li><a href="women.html">styles - women</a></li>
+            <li><a href="menHtml.html">styles - men</a></li>
+            <li><a href="contactHtml.html">contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-note-div">
+          <p class="footer-note">Make it a good hair day!</p>
+        </div>
+      </footer>
+    </div> -->
+
+    <!---------------------------------->
+  </body>
+</html>
